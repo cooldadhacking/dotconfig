@@ -1,5 +1,7 @@
 #!/bin/sh
-#Carpal tunnel rest
+# Rambo You
+# Carpal tunnel rest timer
+# Check out https://www.reddit.com/r/DotA2/comments/67t5js/suffering_from_wrist_pain_or_carpal_tunnel/# for an awesome reddit post on carpal tunnel exercises along with GIFs.
 
 #pause function
 
@@ -27,7 +29,9 @@ for i in {0..5}
 		echo "...."
 		echo "You have rested for 1 minute.."
 		echo ".."
+		printf '\a'
 		pause 'Press [Enter] when you are ready to start working again.'
+		echo " "
 	done
 	
 echo "Perform wrist exercises before starting script again."
