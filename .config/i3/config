@@ -29,6 +29,9 @@ font pango:monospace 8
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+#DEFAULT FLOAT
+floating_minimum_size 800x975
+
 # NO WINDOW BORDER
 for_window [class="^.*"] border pixel 0
 for_window [title="^.*"] border pixel 0
@@ -185,5 +188,5 @@ bindsym $mod+r mode "resize"
 # }
 
 # BACKGROUND
-set $background ~/Pictures/keilidh-ewan-171236-unsplash.jpg
+set $background ~/Pictures/pukpik-392664-unsplash.jpg
 exec_always feh --bg-scale $background
