@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/rambo/.oh-my-zsh
+username="nerds"
+export ZSH=/home/$username/.oh-my-zsh
 
 ZSH_THEME="avit"
 
@@ -31,4 +32,3 @@ source $ZSH/oh-my-zsh.sh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 # alias vim="nvim"
-alias tb="ssh trophyboyfriend@10.0.0.185"
