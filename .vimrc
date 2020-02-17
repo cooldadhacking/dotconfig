@@ -21,4 +21,4 @@ call SetupVAM()
 " OPTION 1, use VAMActivate
 VAMActivate Supertab goyo YouCompleteMe 
 
-set number
+set number relativenumber
