@@ -19,6 +19,8 @@ call SetupVAM()
 " ACTIVATING PLUGINS
 
 " OPTION 1, use VAMActivate
-VAMActivate Supertab goyo YouCompleteMe 
+VAMActivate Supertab goyo YouCompleteMe vim-pandoc vim-pandoc-bundle Vim_Markdown_Preview
 
 set number relativenumber
+set nofoldenable
+let vim_markdown_preview_github=1
